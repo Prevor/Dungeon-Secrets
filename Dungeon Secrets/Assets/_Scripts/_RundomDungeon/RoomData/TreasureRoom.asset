@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed003e061627ac479703bb84c8fc466, type: 3}
+  m_Name: TreasureRoom
+  m_EditorClassIdentifier: 
+  spawnableInteriorObjects:
+  - objectPrefab: {fileID: 4933996382601314425, guid: 76dcfd4eefd801142a476e69725ae0bb, type: 3}
+    maxQuantity: 5
+    minQuantity: 2
+    x: 1
+    y: 1
+    positionOffset: {x: 0.5, y: 0.5}
+  canSpawnEnemies: 1
+  spawnableEnemies:
+  - objectPrefab: {fileID: 6007553288317641485, guid: 7eed8315edcc2b247a94412b29e92830, type: 3}
+    maxQuantity: 5
+    minQuantity: 3
+    appearanceLevel: 0
+  - objectPrefab: {fileID: 2187675070356722332, guid: 70a43a5d2948d864ba6135f51f714c30, type: 3}
+    maxQuantity: 3
+    minQuantity: 2
+    appearanceLevel: 0

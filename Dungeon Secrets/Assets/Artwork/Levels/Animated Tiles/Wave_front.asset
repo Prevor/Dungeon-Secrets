@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Wave_front
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 146557653, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: -205294287, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: -563739520, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: 113121799, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: 1603836307, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: -1275794780, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: 158956443, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  - {fileID: -1637774987, guid: ff9dde8da672f674e84b4606b5e15d7e, type: 3}
+  m_MinSpeed: 2
+  m_MaxSpeed: 2
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed003e061627ac479703bb84c8fc466, type: 3}
+  m_Name: SpawnRoom
+  m_EditorClassIdentifier: 
+  spawnableInteriorObjects:
+  - objectPrefab: {fileID: 2319834055231026666, guid: a317beb95414c834abab39f05934b810, type: 3}
+    maxQuantity: 3
+    minQuantity: 2
+    x: 1
+    y: 1
+    positionOffset: {x: 0.5, y: 0.5}
+  - objectPrefab: {fileID: 5072390215351684846, guid: 95d0aefc40e746c45afc03f141bedc99, type: 3}
+    maxQuantity: 10
+    minQuantity: 5
+    x: 1
+    y: 1
+    positionOffset: {x: 0.5, y: 0.5}
+  canSpawnEnemies: 0
+  spawnableEnemies:
+  - objectPrefab: {fileID: 6007553288317641485, guid: 7eed8315edcc2b247a94412b29e92830, type: 3}
+    maxQuantity: 3
+    minQuantity: 1
+    appearanceLevel: 0
